@@ -1,6 +1,10 @@
 * {
-<<<<<<< HEAD
   margin: 0;
+}
+
+body {
+  max-width: 1280px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Pedro | Estilização da header */
@@ -24,13 +28,11 @@ nav {
 nav a {
   all: unset;
   color: whitesmoke;
-  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
 }
 
 nav a:hover {
   color: #d2c2b0;
-=======
     margin: 0;
 }
 
@@ -52,13 +54,27 @@ nav {
     
 }
 
-nav a {
-    all: unset;
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+#quem-somos {
+  background-color: #D2C2B0;
+  height: 60vh;
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
 }
 
-nav a:hover {
-    color: #d2c2b0;
+#quem-somos>div {
+  width: 600px;
+  margin: 0 10%;
+}
+
+#quem-somos>div>h2 {
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+#quem-somos>p {
+  color: #1F1F24;
+  font-size: 1rem;
 }
