@@ -1,6 +1,4 @@
-# landing-page-template
-
-# Projeto Landing-page14
+# Projeto Landing-page: Grupo 14
 
 Equipe:
 - Roberto De Abreu Salgado
