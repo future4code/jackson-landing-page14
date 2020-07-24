@@ -30,3 +30,17 @@ nav a {
 nav a:hover {
     color: #d2c2b0;
 }
+
+
+/* =============== Codigo Micael =============== */
+
+footer {
+    background-color: #79716a;
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
