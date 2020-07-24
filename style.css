@@ -40,7 +40,6 @@ nav a:hover {
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 10fr;
     width: 100vw;
-
 }
 
 #nossos-servicos h2{
@@ -55,20 +54,28 @@ nav a:hover {
     font-size: 18px;
 }
 
-
 #nossos-servicos {
     height: 500px;
     justify-items: center;
-    align-items: center;
-    
+    align-items: center;    
 }
-
-
 
 #nossos-servicos img {
     width: 500px;
     grid-column-start: 2;
     grid-column-end: 2;
-    
+}
+
+/* =============== Codigo Micael =============== */
+
+footer {
+    background-color: #79716a;
+    height: 10vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+
     
 }
