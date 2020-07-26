@@ -93,17 +93,37 @@ nav a:hover {
     grid-column-end: 2;
 }
 
-/* =============== Codigo Micael =============== */
+/* =============== Codigo Micael - Footer =============== */
 
 footer {
-  background-color: #79716a;
-  height: 10vh;
+  background-color: #1f1f24; 
+  height: 20vh;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
 }
+
+#social-media1{
+  width: 20px;
+  margin-right: 20px;
+  filter: invert(100%);
+  
+}
+#social-media2 {
+  width: 20px;
+  color: white;
+  margin-right: 20px;
+  filter: invert(100%);
+}
+#social-media3 {
+  width: 20px;
+  color: white;
+  margin-right: 20px;
+  filter: invert(100%);
+} 
+/* =============== FIM Codigo Micael - Footer =============== */
 
 
 /* Roberto: Estilização da section Quem Somos */
@@ -138,3 +158,44 @@ footer {
     align-items: center;
     text-transform: uppercase;
 }
+
+/* ======== Codigo Micael - Nosso time ======== */
+#nosso-time {
+  height: 100vh;
+  background-image: linear-gradient(rgba(177, 174, 174, 0.6),rgba(177, 174, 174, 0.85),rgba(228, 225, 225, 9)), url('img/nosso-time.jpg');
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  
+}
+
+#nosso-time>h2 {
+  text-align: center;
+  padding-top: 22vh;
+  letter-spacing: 8px;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.equipe .card {
+  padding: 20px;
+}
+
+.card>img {
+  border-radius: 50%;
+  border: 2px solid #e9e1d8;
+}
+
+.card>div>.container,h4,p {
+  color: #1f1f24;
+  font-size: .8rem;
+  text-align: center;
+}
+
+/* ======== FIM Codigo Micael - Nosso time ======== */
