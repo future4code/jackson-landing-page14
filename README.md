@@ -31,7 +31,7 @@ imagens/ (todas as imagens iriam aqui)
 (X) Main / Nosso Time
 
 
-Requerimentos do Projeto
+# Requerimentos do Projeto
 (  ) Ser responsiva no geral mas testada especificamente no iPhone 6/7/8 (essa opção é facilmente testado, usando o DevTools do Chrome) para a versão mobile. Para a versão desktop terá que ser testado em uma tela de 1280px de largura.
 (  ) Seguir semântica do HTML5, ou seja, sempre que fizer sentido usar as tags semânticas no lugar de divs.
 (  ) Links com ícone para as redes sociais (de mentirinha, pode apontar para a página inicial da rede social) contendo Twitter, Facebook e Instagram. Estas páginas devem ser abertas em outra aba.
