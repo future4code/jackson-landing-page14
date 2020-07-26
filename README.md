@@ -22,13 +22,13 @@ imagens/ (todas as imagens iriam aqui)
 # Pacote de Trabalho 1
 - Pedro Tavares
 (X) (Estrutura) Header / Menu
-( ) Main / Nossos Produtos
+(X) Main / Nossos Produtos
 - Roberto De Abreu Salgado
 (x) (Estrutura) Main
 (x) Main / Quem Somos
 - Micael Guedes
-( ) (Estrutura) Footer / Contato 
-( ) Main / Nosso Time
+(X) (Estrutura) Footer / Contato 
+(X) Main / Nosso Time
 
 
 Requerimentos do Projeto
