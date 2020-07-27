@@ -15,7 +15,9 @@ A Upfour é uma empresa que fornece crédito para moradores da periferia começa
      (*O que tiver barra à frente representa pasta)
 
 index.html
+
 style.css  (pode ser qualquer nome. Só coloquei style pq parece que é quase um padrão básico)
+
 imagens/ (todas as imagens iriam aqui)
 
 
@@ -32,7 +34,9 @@ imagens/ (todas as imagens iriam aqui)
 
 
 # Requerimentos do Projeto
-() Ser responsiva no geral mas testada especificamente no iPhone 6/7/8 (essa opção é facilmente testado, usando o DevTools do Chrome) para a versão mobile. Para a versão desktop terá que ser testado em uma tela de 1280px de largura.
+() Ser responsiva no geral mas testada especificamente no iPhone 6/7/8 (essa opção é facilmente testado, usando o DevTools do Chrome) para a versão mobile. 
+
+(X) Para a versão desktop terá que ser testado em uma tela de 1280px de largura.
 
 (X) Seguir semântica do HTML5, ou seja, sempre que fizer sentido usar as tags semânticas no lugar de divs.
 
