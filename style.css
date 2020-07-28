@@ -4,7 +4,9 @@
 
 body {
   max-width: 1280px;
+  margin: auto;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 /* Pedro | Estilização da header */
@@ -13,6 +15,7 @@ header img {
 }
 
 header {
+  padding: 0 9px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -20,6 +23,7 @@ header {
 }
 
 nav {
+  padding: 9px 0;
   display: flex;
   justify-content: space-around;
   width: 450px;
@@ -63,35 +67,39 @@ nav a:hover {
 /* Pedro - section#nossos-servicos */
 
 #nossos-servicos {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 10fr;
-    width: 100vw;
+  height: 60vh;
+  background-image: linear-gradient(rgba(31, 31, 36, 0.9),rgba(31, 31, 36, 0.85),rgba(31, 31, 36, 0.6)), url('img/Business-photo.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10vh
 }
 
-#nossos-servicos h2{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    justify-self: start;
+#nossos-servicos>h2 {
+  color: #FFF;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  margin: 10vh 15% 0 15% ;
 }
 
-#nossos-servicos article{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    font-size: 18px;
+#nossos-servicos>article {
+  margin: 0 10%;
 }
 
-#nossos-servicos {
-    height: 500px;
-    justify-items: center;
-    align-items: center;    
+#nossos-servicos>article>h3 {
+  color: #E9E1D8;
+  font-size: 2rem;
 }
 
-#nossos-servicos img {
-    width: 500px;
-    grid-column-start: 2;
-    grid-column-end: 2;
+#nossos-servicos>article>p {
+  color: #D2C2B0;
+  margin: 5vh 5% 0 5%;
 }
+
+
 
 /* =============== Codigo Micael - Footer =============== */
 
@@ -129,8 +137,7 @@ footer {
 /* Roberto: Estilização da section Quem Somos */
 #quem-somos {
   background-color: #D2C2B0;
-  height: 60vh;
-  min-height: 10rem;
+  height: 40vh;
   display: flex;
   align-items: center;
 }
@@ -141,61 +148,68 @@ footer {
 }
 
 #quem-somos>div>h2 {
-  color: #FFFFFF;
+  color: #FFF;
   font-size: 3rem;
   font-weight: 700;
   padding-bottom: 1rem;
+  letter-spacing: 0.5rem;
 }
 
 #quem-somos>p {
   color: #1F1F24;
   font-size: 1rem;
-    background-color: #79716a;
-    height: 10vh;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
+  background-color: #79716a;
+  height: 10vh;
+  color: #fff;
 }
 
 /* ======== Codigo Micael - Nosso time ======== */
 #nosso-time {
   height: 100vh;
-  background-image: linear-gradient(rgba(177, 174, 174, 0.6),rgba(177, 174, 174, 0.85),rgba(228, 225, 225, 9)), url('img/nosso-time.jpg');
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  
+  background-image: linear-gradient(rgba(121, 113, 106, 0.6),rgba(121, 113, 106, 0.85),rgba(121, 113, 106, 0.9)), url('img/nosso-time.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15vh;
 }
 
 #nosso-time>h2 {
+  font-size: 3rem;
   text-align: center;
-  padding-top: 22vh;
-  letter-spacing: 8px;
+  letter-spacing: 0.5rem;
+  color: #FFF;
+  margin-top: 20vh;
 }
 
 .equipe {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  margin-top: 5vh;
+  align-items: flex-start;
+  column-gap: 20px;
 }
 
 .equipe .card {
   padding: 20px;
+  text-align: center;
 }
 
 .card>img {
+  margin: auto;
   border-radius: 50%;
   border: 2px solid #e9e1d8;
+  width: 128px;
 }
 
-.card>div>.container,h4,p {
+.card>.container {
   color: #1f1f24;
-  font-size: .8rem;
   text-align: center;
+}
+
+.container>h4 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
 }
 
 /* ======== FIM Codigo Micael - Nosso time ======== */
