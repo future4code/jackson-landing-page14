@@ -99,41 +99,6 @@ nav a:hover {
   margin: 5vh 5% 0 5%;
 }
 
-
-
-/* =============== Codigo Micael - Footer =============== */
-
-footer {
-  background-color: #1f1f24; 
-  height: 20vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-}
-
-#social-media1{
-  width: 20px;
-  margin-right: 20px;
-  filter: invert(100%);
-  
-}
-#social-media2 {
-  width: 20px;
-  color: white;
-  margin-right: 20px;
-  filter: invert(100%);
-}
-#social-media3 {
-  width: 20px;
-  color: white;
-  margin-right: 20px;
-  filter: invert(100%);
-} 
-/* =============== FIM Codigo Micael - Footer =============== */
-
-
 /* Roberto: Estilização da section Quem Somos */
 #quem-somos {
   background-color: #D2C2B0;
@@ -212,4 +177,35 @@ footer {
   margin: 0.5rem 0;
 }
 
-/* ======== FIM Codigo Micael - Nosso time ======== */
+
+/* =============== Codigo Micael - Footer =============== */
+
+footer {
+  background-color: #1f1f24; 
+  height: 20vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#social-media1{
+  width: 20px;
+  margin-right: 20px;
+  filter: invert(100%);
+  
+}
+#social-media2 {
+  width: 20px;
+  color: white;
+  margin-right: 20px;
+  filter: invert(100%);
+}
+#social-media3 {
+  width: 20px;
+  color: white;
+  margin-right: 20px;
+  filter: invert(100%);
+} 
+/* =============== FIM Codigo Micael - Footer =============== */
