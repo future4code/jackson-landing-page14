@@ -209,3 +209,90 @@ footer {
   filter: invert(100%);
 } 
 /* =============== FIM Codigo Micael - Footer =============== */
+
+@media screen and (min-device-width : 375px) and (max-device-width : 667px) {
+
+  
+/* ======== Codigo Micael - Nosso time ======== */
+#nosso-time {
+  height: 170vh;
+  background-image: linear-gradient(rgba(121, 113, 106, 0.6),rgba(121, 113, 106, 0.85),rgba(121, 113, 106, 0.9)), url('img/nosso-time.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  display: flex;
+  /* flex-direction: column; */
+  row-gap: 1px;
+}
+
+#nosso-time>h2 {
+  font-size: 1rem;
+  text-align: center; 
+  letter-spacing: 0.5rem;
+  color: #FFF;
+  margin-top: 10vh;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
+  column-gap: 2px;
+  padding-left: 70px;
+}
+
+.equipe .card {
+  padding: 10px;
+  text-align: center;
+}
+
+.card>img {
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid #e9e1d8;
+  width: 108px;
+}
+
+.card>.container {
+  color: #1f1f24;
+  text-align: center;
+}
+
+.container>h4 {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+
+/* =============== Codigo Micael - Footer =============== */
+footer {
+  background-color: #1f1f24; 
+  height: 20vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#social-media1{
+  width: 20px;
+  margin-right: 20px;
+  filter: invert(100%);
+  
+}
+#social-media2 {
+  width: 20px;
+  color: white;
+  margin-right: 20px;
+  filter: invert(100%);
+}
+#social-media3 {
+  width: 20px;
+  color: white;
+  margin-right: 20px;
+  filter: invert(100%);
+} 
+
+
+}
